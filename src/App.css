@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.App {
+  font-family: 'Lato', sans-serif;
+}
+
+.App-header {
+  background-color: lightseagreen;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.SongInput {
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input {
+  width: 250px;
+  height: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.submit-button {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border: none;
+  width: 75px;
+  height: 25px;
+  margin: 5px;
+  float: right;
+}
+
+select {
+  cursor: pointer;
+}
+
+#filter-rating {
+  border: none;
+  border-radius: 2px;
+  background-color: lightseagreen;
+  float: right;
+  width: 75px;
+  height: 25px;
+}
+
+#filter-genre {
+  border: none;
+  border-radius: 2px;
+  background-color: lightseagreen;
+  float: right;
+  width: 75px;
+  height: 25px;
+}
+
+#input-genre {
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+  width: 75px;
+  height: 25px;
+}
+
+#input-rating {
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+  width: 75px;
+  height: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+}
+
+th {
+  background-color: lightseagreen;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+}
